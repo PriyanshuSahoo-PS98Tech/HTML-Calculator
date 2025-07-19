@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags for proper rendering -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the page -->
+    <title>Calculator</title>
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Main Container -->
+<div class="container">
+
+    <!-- Calculator box with dark theme by default -->
+    <div class="calculator dark">
+
+        <!-- Theme toggle button (Dark/Light switch) -->
+        <div class="theme-toggler active">
+            <i class="toggler-icon"></i> <!-- Icon inside toggle button -->
+        </div>
+
+        <!-- Display Screen for input and results -->
+        <div class="display-screen">
+            <div id="display"></div> <!-- Actual dynamic display area -->
+        </div>
+
+        <!-- Button Grid -->
+        <div class="buttons">
+            <table>
+                <!-- Row 1: Clear, Divide, Multiply, Backspace -->
+                <tr>
+                    <td><button class="btn-operator" id="clear">C</button></td>
+                    <td><button class="btn-operator" id="/">&divide;</button></td>
+                    <td><button class="btn-operator" id="*">&times;</button></td>
+                    <td><button class="btn-operator" id="backspace">🔙</button></td>
+                </tr>
+
+                <!-- Row 2: 7,8,9,Minus -->
+                <tr>
+                    <td><button class="btn-number" id="7">7</button></td>
+                    <td><button class="btn-number" id="8">8</button></td>
+                    <td><button class="btn-number" id="9">9</button></td>
+                    <td><button class="btn-operator" id="-">-</button></td>
+                </tr>
+
+                <!-- Row 3: 4,5,6,Plus -->
+                <tr>
+                    <td><button class="btn-number" id="4">4</button></td>
+                    <td><button class="btn-number" id="5">5</button></td>
+                    <td><button class="btn-number" id="6">6</button></td>
+                    <td><button class="btn-operator" id="+">+</button></td>
+                </tr>
+
+                <!-- Row 4: 1,2,3,Equal (Equal spans 2 rows) -->
+                <tr>
+                    <td><button class="btn-number" id="1">1</button></td>
+                    <td><button class="btn-number" id="2">2</button></td>
+                    <td><button class="btn-number" id="3">3</button></td>
+                    <td rowspan="2"><button class="btn-equal" id="equal">=</button></td>
+                </tr>
+
+                <!-- Row 5: Open bracket, 0, Close bracket -->
+                <tr>
+                    <td><button class="btn-operator" id="(">(</button></td>
+                    <td><button class="btn-number" id="0">0</button></td>
+                    <td><button class="btn-operator" id=")">)</button></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<!-- Link to external JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
