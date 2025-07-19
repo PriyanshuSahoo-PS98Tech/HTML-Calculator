@@ -12,7 +12,7 @@ A feature-rich, responsive calculator built with modern web technologies featuri
 - [Project Structure](#-project-structure)
 - [Installation & Setup](#-installation--setup)
 - [Usage](#-usage)
-- [Technical Architecture](https://github.com/PriyanshuSahoo-PS98Tech/HTML-Calculator/blob/main/output.png)
+- [Technical Architecture](https://github.com/PriyanshuSahoo-PS98Tech/HTML-Calculator?tab=readme-ov-file#%EF%B8%8F-technical-architecture)
   - [Class-Based Design](#class-based-design)
   - [Input Validation System](#input-validation-system)
   - [Error Handling](#error-handling)
