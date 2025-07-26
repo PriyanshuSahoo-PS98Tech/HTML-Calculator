@@ -70,7 +70,7 @@ HTML-Calculator/
 ├── index.html              # Main HTML structure and layout
 ├── style.css              # Comprehensive styling and themes
 ├── script.js              # Advanced calculator logic (4000+ lines)
-├── output.jpg             # Calculator preview image
+├── output.png             # Calculator preview image
 ├── LICENSE                # MIT License
 └── README.md              # Project documentation
 ```
